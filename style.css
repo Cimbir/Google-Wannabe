@@ -1,0 +1,160 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+header{
+    height: 7vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.header-link h4, .header-link a i{
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 100;
+}
+
+.header-link h4:hover{
+    text-decoration: underline;
+}
+
+.header-link{
+    margin: 0px 15px;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.header-link img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+main{
+    text-align: center;
+    margin: auto;
+    margin-top: 15vh;
+}
+
+#full-search-bar{
+    border: 1px solid #dfe1e5;
+    width: 650px;
+    margin: auto;
+    margin-top: 3vh;
+    height: 3vh;
+    padding-top: 5px;
+    border-radius: 24px;
+}
+
+#full-search-bar:hover{
+    box-shadow: 0px 0px 10px white;
+}
+
+#search-line{
+    display: none;
+}
+
+#full-search-bar:hover #search-input{
+    border-right: 1px solid darkslategray;
+}
+
+#keyboard-icon{
+    color: rgba(0, 0, 0, 0.87);
+}
+
+#search-icon{
+    color: #9aa0a6;
+}
+
+#search-input{
+    border: none;
+    height: 3vh;
+    width: 90%;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 5px;
+    margin-top: -5px;
+}
+
+#search-btns{
+    margin-top: 5vh;
+}
+
+.google-btn{
+    background-color: #f2f2f2;
+    color: #5f6368;
+    border: none;
+    font-size: 18px;
+    padding: 5px 13px;
+    border-radius: 2px;
+    margin: 0px 10px;
+}
+
+.google-btn:hover{
+    border: 1px solid darkslategray;
+    margin: -1px 9px;
+    background-color: hsl(0, 0%, 90%);
+}
+
+main p{
+    margin-top: 3vh;
+}
+
+main p a{
+    text-decoration: none;
+}
+
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 9px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: -9px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.footer-section{
+    display: flex;
+    height: 5vh;
+    margin: 0px;
+    padding: 0px;
+    border-top: 1px solid #dfe1e5;
+    align-items: center;
+}
+
+#bottom-div{
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.bottom-div-part{
+    display: flex;
+    margin: 0px;
+}
+
+h3{
+    padding: 0px 10px;
+    margin: 0px;
+}
+
+.bottom-div-part h3:hover{
+    text-decoration: underline;
+}
+
+@media(max-width: 700px){
+    footer{
+        width: 700px;
+    }
+}
